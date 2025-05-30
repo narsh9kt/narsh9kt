@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+function createUser({ name, age, city }) {
+  return {
+    name,
+    age,
+    city,
+    introduce() {
+      console.log(`Hello there, my name is ${this.name}. I'm ${this.age} y.o. At the moment I live in ${this.city}.`);
+    },
+  }
+}
