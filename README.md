@@ -15,6 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+```
 function createUser({ name, age, city }) {
   return {
     name,
@@ -25,3 +26,4 @@ function createUser({ name, age, city }) {
     },
   }
 }
+```
